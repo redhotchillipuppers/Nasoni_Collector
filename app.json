@@ -26,7 +26,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Nasoni Collector to use your location to help you find and collect nasoni."
+        }
+      ],
       [
         "expo-splash-screen",
         {
