@@ -9,9 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nasonicollector.app"
     },
     "android": {
+      "package": "com.nasonicollector.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -32,6 +34,7 @@
           "locationAlwaysAndWhenInUsePermission": "Allow Nasoni Collector to use your location to help you find and collect nasoni."
         }
       ],
+      "react-native-maps",
       [
         "expo-splash-screen",
         {
