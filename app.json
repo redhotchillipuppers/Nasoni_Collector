@@ -9,7 +9,13 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spaceyemu.nasonicollector",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow Nasoni Collector to use your location to help you find and collect nasoni.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow Nasoni Collector to use your location to help you find and collect nasoni.",
+        "NSLocationAlwaysUsageDescription": "Allow Nasoni Collector to use your location to help you find and collect nasoni."
+      }
     },
     "android": {
       "adaptiveIcon": {
